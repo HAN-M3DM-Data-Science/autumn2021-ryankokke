@@ -1,0 +1,100 @@
+---
+title: "Assigment - Data Driven Business"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output:
+  html_notebook:
+    toc: yes
+    toc_depth: 2
+---
+
+Search Youtube for suitable business case examples on data driven business. Copy the embed code below. In this instance I (Ryan Kokke) used multiple references, the case I eventually used was about Bol.com
+
+<---- https://godatadriven.com/cases/bol-com/  ---->
+
+Bol.com is an online retailer active in the Netherlands and Belgium. The company was founded in 1999. In 2012 the company was acquired by Ahold Delhaize. The company was able to (partly due to the pandemic) generate €4.3 billion of revenue in 2020. Besides being an online retailer the company’s online retailing platform also functions as a marketplace for other businesses and sellers. Being an online business comes with a great amount of data generation. Bol.com being a relatively young company has not had the struggle of transforming from a traditional business to a more data driven organisation. 
+
+
+## What features define a data driven business?
+
+According to Provost and Fawcett (2013) a business can become a successful data driven business by having the right people in the right place. One of the most important success factors is having knowledgeable data scientists and managers that understand (at least the basics of) data science. Having a data-rich organisation does not make it data driven. The people behind it do. A good mix of business strategy and good use of data science is the crux. Managers should have a decent understanding of data science and be able to properly instruct its data employees what to do. As soon as managers are able to align its data science assets with the company's strategy they are set up for success. In essention a company needs to have capable (data science) managers, great data scientists and preferably strategic data science assets (lots of data), all while gaining experience in the area of data science.
+
+Bol.com might be such a company. Bol.com uses data science in many different places. As an e-commerce platform the company uses it in for example the search engine, recommender systems, forecasting of sales, customer service and a chatbot. The company calls itself a frontrunner in the Dutch data science landscape (GoDataDriven, n.d.). Now, the company wants to extend its data science capabilities beyond its data engineers and scientists. The company focuses strongly on having a good development program to attract great data scientists. As Provost and Fawcett (2013) mentioned, creating an environment in which a data scientist can grow and share its knowledge is important. Bol.com started doing this by focusing on training programs and creating a data science community within the organisation (GoDataDriven, n.d.). Together with GoDataDriven, Bol.com developed a training program for their data scientists, ranging from data science starters to advanced data scientists. The company created different types of courses to give employees the opportunity to sign up for a program that fits them best. 
+
+According to an empirical study by Marshall, Mueck and Shockley (2015) leading organisations in data analytics and big data follow three basic strategies: 
+
+Promote excellent data quality and accessibility.
+
+Make analytics and innovation a part of every role.
+
+Build a quantitative innovation culture.
+
+
+One of the key findings was that leading organisations tend to innovate using big data and analytics within a structured approach, while also focussing on collaboration. Outperforming businesses tend to use more data within the innovation process than others. Bol.com strives for more accessibility when it comes to their information systems. The fact that the company is investing in developing its staff and wanting to educate their employees shows that the company is wanting to innovate and increase accessibility.
+
+Overtoom, Director Data & Analytics at KPMG, (n.d.) formulated three elements that a leading Data & Analytics organization has, based on a Data Maturity Survey:
+
+A solid and clear data strategy as a starting point.
+
+Value management throughout the use-case lifecycle.
+
+Full commitment from senior leadership on the topic. 
+
+
+A solid and clear data strategy corresponds with the fact that leading organisations use a structured approach. This also correlates with structured value management, where value creation and evaluation are central. And what it all seems to come down to is commitment. An organisation can only become maturely data driven by constantly improving its data driven processes, training its employees and innovating with a clear strategy. Bol.com seems to realize this. The company knows that to stay at the front in such a quickly evolving field it can never rest (GoDataDriven, n.d.). 
+
+
+## What are the important features of a data culture?
+
+A clear view of what a data culture looks like is hard to describe. However, there seem to be certain features leaders in the field of data driven decision making seem to have in common. An article from McKinsey by Díaz, Rowshankish and Saleh (2018) gives some insights and takeaways from the executives of some large companies. 
+
+Data does not make a data driven business. Executives from JPMorgen Chase, A.P. Moller, NBCUniversal and Houston Astros believe that simply relying on large quantities of data and hoping to find something useful does not work. A clear goal has to be set before taking the next step. Finding a problem to solve first is key. Waller (2020) adds to this by saying that which metrics to use should be chosen with care. By choosing and communicating what to measure and what metrics to use, leaders can exert a powerful effect on behaviour.
+
+The executives (from NBCUniversal, JPMorgen Chase and Mitsubishi UFJ Research and Consulting) agree on the importance of top management that understands the importance of using data in their businesses. However, how much the top management is involved with the data science part of a company seems to differ. The executive of NBCUniversal emphasizes that a CEO only has so much time and that it's the highly knowledgeable middle management’s job to inform and persuade top management. The other executives highlight the importance of a clear understanding at the top. 
+
+Democratization of data is also important in a data culture. Accessibility is key, giving people access to data opens them up to a whole new world and gets them excited. With this they can come to new insights. Cameron Davies, executive at NBCUniversal, however, notes that at the same time a structured approach to handling the data is necessary. Just accessing it and trying to make some analyses without a clear goal does not work. Also having a clear policy on what can be done and what may not be is an integral part of a data culture. There are certain regulations every company must adhere to, but it is also important to have a reliable way of handling (and transforming) the data. Giving people access also gives them the responsibility to handle data in a proper way and not tamper with it. Training your employees, such as Bol.com is doing, is a good way to ensure that company policy is being followed, while also unpacking new possibilities. 
+
+Corsair’s Business (2017) describes three simple ways to create access in an organisation with a data culture. First of all, employees should not only be able to access it but also understand it. Employees should know what data is available, where it can be found, why the organisation has it, what it says and how to deal with it. Secondly, a common framework, language and set of goals can be created and need to be installed. People need to have access to some common way of reporting and be able to use this. It is important to prevent different sources of information, different metrics and different programming languages from being used. Consistency is key, having a lot of differences within an organisation makes communicating and rotating jobs harder (Waller, 2020). Lastly, employees need to be trained and educated, not only by using external vendors but also by gaining experience with internal data and processes. 
+
+To successfully integrate a data culture change agents are necessary. Although this is true, the executives of NBCUniversal, Mitsubishi UFJ Research and Consulting and Houston Astros came with different takeaways. The key to bridge the gap between the top and the bottom in the organisation is someone who knows both worlds. In one case this was middle management, in another it was an ‘’evangelist’’, this was someone who was a point of contact for management but also someone who took ownership in the new data science related project. In another case they brought in people that understood the core of the business but also had an understanding of data science, in this case it was about bringing in baseball coaches that were able to program in SQL. By doing this they could coach the players and teach them about data and analytics.
+
+Furthermore, it is also important to be careful with your data. Sharing is possible, but should not be done hastily. External providers can be of great help, especially when internal resources are limited. It has to be noted that before using external partners that terms and conditions must be clear for both parties, without knowing what a company might step into it could just give away valuable data. Therefore, bigger companies seem to more often prefer keeping things in house to prevent losing a competitive advantage by sharing too much with external partners. 
+
+Not only is it important to be careful with data, it is also important to quantify the uncertainty of the possible outcome (Waller, 2020). Questioning uncertainty can have three powerful effects. Firstly, it forces people to directly think about and deal with potential sources of uncertainty. Secondly, questioning uncertainty lets people gain a deeper understanding of their work. Finally, it promotes the use of experiments and testing before using.
+
+Last of all, it is important to find the right people. Subject expertise is a must, but having a diverse team is also important. Companies need to bring in people that bring in new insights and views. How much expertise in data science is needed depends on the positions that need to be filled in. If needed, employees can be trained. Diversity and expertise seem to be key factors when integrating a data culture.
+
+
+## What are the transformation steps towards a mature data driven business?
+
+To create a data culture and a maturen data driven business a couple steps can be formulated. These steps are derived from the answers of the questions above:
+
+Start at the top. To become a successful data driven organisation the top management must be educated. They must understand the need for data driven decision making, what it includes and what it takes to become data driven. Understanding management is key.
+
+A clear strategy must be created. A structured approach is best practice and starts with a clear data strategy. What do we want to achieve with data science? How and where is it going to help us?
+
+Inventorize current assets. What resources do we have? An organisation needs to know if it has the right data, expertise and mindset to carry out its strategy. Are there certain assets that can give us a competitive advantage? If this is not the case the organisation can invest in this.
+
+Create an organization-wide data policy. Create a policy that aligns the organisation with its goals and functions within its boundaries. 
+
+Find the right people. A good understanding of the business and data is important to effectively gain results. Educate your employees, start recruiting for new employees or find new partners. It is also important to find the right change agents (internally or externally).
+
+Make innovation part of your data culture. A structured way of improving your business makes it successful. A lot of leading companies that work with data science do this.
+
+Make data accessible. Give your employees access to your data, after being educated and learning the policy.
+
+Think ahead. Try to inventorize the risks and possible outcomes. Not only does this give a good view of what’s to come, it also lets people look into the process deeper and makes them understand it better.
+
+Evaluate. To constantly innovate, organisations need to evaluate what did and did not work. Every success or failure comes with valuable data and can be input for the next project.
+
+
+References:
+GoDataDriven. (2021, January 5). bol.com. https://godatadriven.com/cases/bol-com/ 
+
+Marshall, A., Mueck, S. and Shockley, R. (2015), "How leading organizations use big data and analytics to innovate", Strategy & Leadership, Vol. 43 No. 5, pp. 32-39. https://doi.org/10.1108/SL-06-2015-0054 
+
+Díaz, A., Rowshankish, K., & Saleh, T. (2020, January 14). Why data culture matters. McKinsey & Company. https://www.mckinsey.com/business-functions/mckinsey-analytics/our-insights/why-data-culture-matters 
+
+Corsair’s Business. (2018, May 26). Creating a Data-Driven Culture - Corsair’s Business. https://corsairs-business.corsairs.network/creating-a-data-driven-culture-2e715f9243d2 
+
+Waller, D. (2020, February 6). 10 Steps to Creating a Data-Driven Culture. Harvard Business Review. https://hbr.org/2020/02/10-steps-to-creating-a-data-driven-culture 
+

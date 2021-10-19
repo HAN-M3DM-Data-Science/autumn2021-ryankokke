@@ -1,0 +1,34 @@
+---
+title: "Assigment - Data Driven Decision Making"
+author: "Ryan Kokke"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output:
+  html_notebook:
+    toc: yes
+    toc_depth: 2
+---
+
+A while ago I ran into a webinar series about data science from ProRail (2018). ProRail is the railway manager of the Netherlands. ProRail is responsible for the entire railway network from construction to maintenance, management and safety. With data analysis, artificial intelligence and monitoring ProRail wants to improve overall rail performance. The railway manager has several data science projects to try and improve its services. For example, ProRail is trying to predict when its rail needs maintenance (KPMG, 2019). Before ProRail used to simply carry out alternating maintenance every period because the period was over. Nowadays the railway manager only does it when it is necessary. By collecting new data using sensors togethers with existing data sets ProRail was able to create clear statistics and predictive models.
+
+The used business case(s) can be found in the references.
+
+## Why was data driven decision making (3DM) useful in this business case?
+
+Take rail switches, most of the money goes into this asset (van Beek, n.d.). As they are the most maintenance sensitive. By combining multiple data sources the organisation was able to come to new insights. For example, they came to know that certain switches were never turned because the track was always driven from one direction. ProRail clamped these points or replaced them with standard fixed track. Because of this they were able to reallocate budgets. Essentially, ProRail intended to provide railway users with as much maintenance and malfunction information as possible. At the same time, Infrastructure Management colleagues were looking for the load data of the track and switches; they wanted to introduce new concepts such as differentiated maintenance. In the future ProRail wants to predict when a piece of track needs maintenance, to further reduce costs and provide clients with better service.
+
+
+## How did the organization apply 3DM?
+
+ProRail has multiple source systems from which data can be extracted. The organisation wanted to combine data from these systems to create new (composite) information. ProRail had to partner up with its clients, service providers and data experts to come up with new data-driven solutions that can improve the performance of infrastructure and trains. The organisation came up with new insights by using the different existing source systems and adding new ways of collecting data, by installing sensors on passenger trains and in the track. 
+
+## What can the organization do with 3DM that they couldn’t do before?
+
+I mentioned that ProRail runs several projects, one of them being about the maintenance schedule. However, the organisation also started projects to more accurately detect slippery tracks. Prorail (2021) combined applications and created algorithms that could accurately decide if parts of the track were slippery. By creating this new algorithm ProRail was able to reduce the number of hours that a track was (falsely) detected as slippery, which in turn reduced the number of delayed trains. As trains were no longer deviating from the scheduled route plan as much. ProRail did several projects like this to increase its overall performance and cut costs, by applying 3DM to monitor its infrastructure, this includes monitoring its track, overhead lines, switches, etc. By doing this ProRail is able to unlock new insights and inform the internal organisation and its partners more accurately. This not only increased internal performance but also allowed the organisation to provide its partners with new information, some of which they could share freely to increase service levels. Certain other new insights could be shared against a price, increasing ProRails revenue.
+
+References:
+
+van Beek, D. (n.d.). BI bij ProRail: in wissels zit het meeste geld. Passionned Group. https://www.passionned.nl/slimmer-werken/sector/transport/bi-bij-prorail/ 
+
+Data Analytics case: Prorail - Wisselstoringen voorspellen met data-analyse. (2019, May 7). KPMG. https://home.kpmg/nl/nl/home/insights/2019/05/ data-analytics-case-prorail-wisselstoringen-voorspellen-met-data-analyse.html 
+
+ProRail. (2021, June 4). Datascience in het Spoor #7 Realtime monitoring [Video]. YouTube. https://www.youtube.com/watch?v=BlZKgg-IwuY&t=4107s  

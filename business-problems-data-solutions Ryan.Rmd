@@ -1,0 +1,65 @@
+---
+title: "Assigment - Data Problems vs Data Solutions"
+author: Ryan Kokke
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output:
+  html_notebook:
+    toc: yes
+    toc_depth: 2
+---
+
+Search Youtube for a suitable business case example on data driven decision making and copy the embed code below. In this instance I did not use a youtube video but an article.
+
+<---- http://radar.oreilly.com/2011/08/t-mobile-challenges-churn-with.html ---->
+
+T-Mobile is a mobile communications provider active in the Czech Republic, the Netherlands, Poland and the United States. The company contains the mobile communications subsidiaries of the German telecommunications company Deutsche Telekom AG. Its head office is located in Bonn, Germany. The company has some 52.000 employees and generated 68.4 billion US dollars of revenue in 2020. For this business case we will focus on the US market.
+
+## What was the business problem?
+
+The company wants to better identify multi-faceted reasons behind customer turnover. Essentially wanting to reduce churn rates. T-Mobile US grew over the years partly by acquiring other telecom providers in the United States. This resulted in many data systems cobbling together. The company wanted to streamline its information management architecture as this was becoming too complex. In turn by revising its information management architecture the company would be able to improve regional marketing campaigns, better customer care and more advanced churn management. 
+
+The company combined subscriber and network data together among multiple databases and source systems to create new ‘’datazones’’. T-Mobile created six data zones that were connected to certain business objectives. The six zones were as follows: 
+
+
+Customer data zone: a 360 degree view of each customer used to attack customer dissatisfaction.
+
+Product and Services zone: which products and services are used by whom and when?
+
+Customer experience zone: What are the channels that interact with the customer and when?
+
+Business Operations zone: Containing all billing & accounting information and finance and risk management.
+
+Supply Chain zone: How do the purchase-order, shipment and logistics operate. 
+
+Network zone: All data that is stored to support management.
+
+
+The company used several tools to store the data, analyze it, search it and visualize it. Data modeling tools that were used included CA ERwin and Embarcadero ER/Studio. Furthermore, to identify relationships the organisation used Informatica PowerCenter Data Profiling and IBM Exeros Discovery. It also used Informatica PowerCenter to integrate data from the different systems used within the company. T-Mobile also used Tableau to visualize this data. 
+
+T-Mobile reorganized to become a more regional-oriented organization. This enabled them to run more targeted campaigns using specific customer demographics and customer segmentation. Before this the company used to do national-wide campaigns without targeting specific consumers. 
+
+With its new strategy and technical capabilities the company started to use a tribal customer model. This is based on the fact that influential customers can influence other people when switching to T-Mobile's competitors. T-mobile wanted to predict the tendency of its customers to churn and mitigate the impact of certain influential ‘’tribe’’ leaders. By taking into account the size of ‘’tribes’’ and the level of influence a customer has, the company can better estimate the Net Present Value/Customer Lifetime Value of a subscriber and determine its most valuable customers. 
+
+To predict churn T-Mobile uses different analyses, such as billing analysis, drop call analysis and sentiment analysis: 
+
+
+Billing analysis is used to see how a customer uses T-Mobile products and services. How often do they call, where do they call to, for how long, with whom, with whom do they text and how much, also what is their internet usage? If a subscriber calls with a lot of people from a different provider this could indicate that this subscriber might be influenced to switch to this subscriber by its social relations. 
+
+
+Drop call analysis is used to see if coverage is good or not. If someone experiences more drop calls this might negatively influence a subscriber, making them more inclined to switch. By spotting this T-Mobile can offer customers with an increased amount of drop calls a new phone or a free femtocell. This can for example happen when a subscriber moves to an area with limited coverage.
+
+
+The last type of analysis, sentiment analysis, predicts what customers think of T-Mobile and what their next actions may be. By doing this the company can proactively prevent complaints.
+
+
+## How was it translated into a data mining problem?
+
+The problem in the case for T-Mobile was that the company owned a lot of distributed and complex data. This made the data difficult to access and difficult to use to create new insights. By integrating its data systems the company enabled itself to create new insights for, in this case, churn management. The problem for the company was not so much that it did not collect massive quantities of data but that it did not use it to its fullest potential. Also the company stored a lot of redundant data in its multiple source systems taking up unnecessary storage space.
+
+## What is the realized business value?
+
+In the first quarter of 2011 the company lost 99.000 customers. By using churn management analytics and a customer-centric approach T-Mobile was able to reduce this number to 50.000 for the second quarter of 2011. This meant a 50% decrease in churn rate. The company was also able to increase its number of new customers with millions in the following years, quite an impressive feat!
+
+Reference:
+
+Sheppard, B. (2011, September 10). T-Mobile challenges churn with data. O’Reilly Radar. http://radar.oreilly.com/2011/08/t-mobile-challenges-churn-with.html 
